@@ -1,0 +1,14 @@
+# Streamlit theme for the Netflix-style UI.
+# Dark background (#141414), Netflix red accent (#E50914) and white text,
+# matching the design tokens also used by the custom CSS in app.py.
+
+[theme]
+base = "dark"
+primaryColor = "#E50914"
+backgroundColor = "#141414"
+secondaryBackgroundColor = "#1f1f1f"
+textColor = "#FFFFFF"
+font = "sans serif"
+
+[server]
+headless = true
